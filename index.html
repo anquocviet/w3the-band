@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <link rel="icon" type="image/x-icon" href="./assets/img/logo-icon/logo-icon.png">
 </head>
@@ -33,9 +34,13 @@
                 </li>
             </ul>
 
-            <!-- Begin: Search Button -->
+            <!-- Search Button -->
             <div class="search-btn pull-right">
                 <i class="text-white search-icon ti-search"></i>
+            </div>
+            <!-- Menu Mobile Button -->
+            <div id="menu-mobile" class="mobile-menu-btn pull-right">
+                <i class="text-white mobile-menu ti-menu"></i>
             </div>
         </div>
 
@@ -63,16 +68,16 @@
                     aliquip ex ea commodo consequat.</p>
                 <!-- The Band Member Image -->
                 <div class="row about-memberband">
-                    <div class="text-center col col-third band-member">
-                        <p class="name-band">Name</p>
+                    <div class="col col-third s-col-full text-center mt-16">
+                        <p class="name-band mt-16">Name</p>
                         <img src="./assets/img/band_about/bandmember.jpg" alt="Name" class="band-img">
                     </div>
-                    <div class="text-center col col-third band-member">
-                        <p class="name-band">Name</p>
+                    <div class="col col-third s-col-full text-center mt-16">
+                        <p class="name-band mt-16">Name</p>
                         <img src="./assets/img/band_about/bandmember.jpg" alt="Name" class="band-img">
                     </div>
-                    <div class="text-center col col-third band-member">
-                        <p class="name-band">Name</p>
+                    <div class="col col-third s-col-full text-center mt-16">
+                        <p class="name-band mt-16">Name</p>
                         <img src="./assets/img/band_about/bandmember.jpg" alt="Name" class="band-img">
                     </div>
                 </div>
@@ -85,40 +90,40 @@
                     <ul class="calendar-ticket">
                         <li>September <span class="text-white soul-out">Sold out</span></li>
                         <li>October <span class="text-white soul-out">Sold out</span></li>
-                        <li>November<span class="text-white  pull-right">3</span></li>
+                        <li>November<span class="badge-3 text-white  pull-right">3</span></li>
                     </ul>
-                    <div class="row list-ticket">
+                    <div class="row list-ticket mt-16">
                         <!-- New York -->
-                        <div class="col col-third ticket-infomation">
+                        <div class="col col-third ticket-infomation s-col-full mt-16">
                             <img src="./assets/img/ticket-image/newyork.jpg" alt="Newyork" class="ticket-img">
                             <div class="text-ticket">
                                 <h4 class="location">New York</h4>
                                 <p class="date">Fri 27 Nov 2016</p>
                                 <p class="ticket-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="text-white btn js-buy-tickets">Buy Tickets</button>
+                                <button class="text-white btn js-buy-tickets s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                         <!-- Paris -->
-                        <div class="col col-third ticket-infomation">
+                        <div class="col col-third ticket-infomation s-col-full mt-16">
                             <img src="./assets/img/ticket-image/paris.jpg" alt="Newyork" class="ticket-img">
                             <div class="text-ticket">
                                 <h4 class="location">Paris</h4>
                                 <p class="date">Sat 28 Nov 2016</p>
                                 <p class="ticket-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="text-white btn js-buy-tickets">Buy Tickets</button>
+                                <button class="text-white btn js-buy-tickets s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                         <!-- San Francisco -->
-                        <div class="col col-third ticket-infomation">
+                        <div class="col col-third ticket-infomation s-col-full mt-16">
                             <img src="./assets/img/ticket-image/sanfran.jpg" alt="San Francisco" class="ticket-img">
                             <div class="text-ticket">
                                 <h4 class="location">San Francisco</h4>
                                 <p class="date">Sun 29 Nov 2016</p>
                                 <p class="ticket-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="text-white btn js-buy-tickets">Buy Tickets</button>
+                                <button class="text-white btn js-buy-tickets s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -131,7 +136,7 @@
                 <p class="sub-heading-content">Fan? Drop a note!</p>
                 <div class="contact-content">
                     <div class="row">
-                        <div class="col col-hafl contact-info">
+                        <div class="col col-hafl s-col-full contact-info">
                             <p>
                                 <i class="ti-location-pin"></i>
                                 Chicago, US
@@ -146,14 +151,14 @@
                             </p>
                         </div>
                         <form action="">
-                            <div class="col col-hafl contact-form">
+                            <div class="col col-hafl s-col-full contact-form">
                                 <div class="row">
-                                    <div class="col col-hafl">
+                                    <div class="col col-hafl s-col-full">
                                         <input type="text" name="" id="" placeholder="Name" class="form-control"
                                             required="" control-id="ControlID-1">
                                     </div>
-                                    <div class="col col-hafl">
-                                        <input type="email" name="" id="" placeholder="Email" class="form-control"
+                                    <div class="col col-hafl s-col-full">
+                                        <input type="email" name="" id="" placeholder="Email" class="form-control s-mt8"
                                             required="" control-id="ControlID-2">
                                     </div>
                                 </div>
@@ -164,8 +169,10 @@
                                             required="" control-id="ControlID-3">
                                     </div>
                                 </div>
-                                <div><input style="text-transform: uppercase;" type="submit"
-                                        class="btn mt-16 text-white pull-right" value="Send" control-id="ControlID-4">
+                                <div>
+                                    <input style="text-transform: uppercase;" type="submit"
+                                        class="btn mt-16 text-white pull-right s-full-width" value="Send"
+                                        control-id="ControlID-4">
                                 </div>
 
                             </div>
@@ -258,6 +265,32 @@
         container.addEventListener('click', function (event) {
             event.stopPropagation()
         })
+    </script>
+    <script>
+        var header = document.getElementById('header');
+        var menuBtn = document.getElementById('menu-mobile');
+        var headerHeight = header.clientHeight;
+        // Open/Close Header
+        menuBtn.onclick = function () {
+            if (header.clientHeight === headerHeight) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+        // Auto Close Header
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        for (let index = 0; index < menuItems.length; index++) {
+            var menuItem = menuItems[index];
+            menuItem.onclick = function (event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classLi.classListst.contains('subnav');
+                if (isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
     </script>
 </body>
 

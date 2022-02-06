@@ -89,7 +89,7 @@ html {
   line-height: 46px;
   text-decoration: none;
   color: #fff;
-  display: inline-block;
+  display: block;
   padding: 0 24px;
   text-transform: uppercase;
 }
@@ -123,6 +123,14 @@ html {
   color: #000;
   padding: 0 16px;
 }
+
+.mobile-menu-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+#header .mobile-menu-btn,
 #header .search-btn {
   padding: 0 23px;
 }
@@ -130,6 +138,13 @@ html {
   background-color: #f44336;
   cursor: pointer;
 }
+#header .mobile-menu-btn:hover {
+  background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .mobile-menu {
+  color: #000;
+}
+#header .ti-menu,
 #header .search-icon {
   line-height: 46px;
 }
@@ -163,9 +178,12 @@ html {
 }
 #content .content-section {
   width: 800px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 64px 0 112px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 #content .heading-content {
   margin-bottom: 25px;
@@ -183,6 +201,11 @@ html {
 #content .about-description {
   text-align: justify;
   line-height: 1.5;
+}
+#content .about-memberband {
+  margin-top: 30px;
+}
+#content .member-items {
 }
 #content .name-band {
   margin-bottom: 15px;
@@ -209,6 +232,12 @@ html {
   margin-left: 16px;
   padding: 3px 8px;
 }
+.tour-section .badge-3 {
+  padding: 3px 9px;
+  background: #000;
+  border-radius: 12px;
+  margin: -3px 16px;
+}
 .tour-section .quantity {
   background-color: #000;
   width: 25px;
@@ -219,7 +248,6 @@ html {
   margin: -3px 16px 0 0;
 }
 #content .list-ticket {
-  margin-top: 32px;
   color: #000;
 }
 #content .ticket-img {
