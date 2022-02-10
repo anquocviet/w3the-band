@@ -11,10 +11,11 @@
   }
   .contact-form .form-control {
     padding: 15px;
+    font-size: 16px;
   }
   .social-network a {
     font-size: 24px;
-    margin: 0 4px;
+    margin: 0 8px;
   }
   .create a {
     padding: 8px 0;
@@ -76,5 +77,8 @@
   }
   .contact-info {
     line-height: 1.8;
+  }
+  .btn {
+    font-size: 16px;
   }
 }
