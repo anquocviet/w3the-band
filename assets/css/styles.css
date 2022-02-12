@@ -173,6 +173,7 @@ html {
 }
 #slider .text-description {
   font-weight: bold;
+  text-shadow: 0 0 2px #000;
 }
 
 /* Content */
